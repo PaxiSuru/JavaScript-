@@ -26,6 +26,12 @@
     -Array o Arreglo
     Es un conjunto de datos que los almacena en una lista ordenada elementos. Los datos dentro de los arreglos se escriben entre corchetes [] y separados por ','
 
+    -Object.
+    Este tipo de dato es un conjunto de multiples pares 'clave' - 'valor'. Se escriben entre llaves {} y separados por comas ','
+
+    -Functions o Funciones
+    Es un tipo de dato que puede ser "invocado", se declaran con la palabra reservada "function" y el código que ejecutan entre {}
+
 */
 
 /* Numbers */
@@ -58,7 +64,7 @@ let x; //Esto es declarar una variable sin inicializar.
 
 console.log(x); // undefined (Sin definir)
 
-x = prompt("¿Que Pokémon es tu favorito?");
+/* x = prompt("¿Que Pokémon es tu favorito?"); */
 
 console.log(x); //Valor que el usuario introduzca.
 
@@ -68,3 +74,37 @@ let misFrutasFavoritas = ["Piña", "Uvas", "Manzana"];
 let misNumerosSuerte = ["12", "24" ,"8"];
 let otroArray = ["Puchinguito", 56, true];
 
+console.log(misFrutasFavoritas);
+console.log(misNumerosSuerte);
+console.log(otroArray);
+
+/* Objeto */
+
+let persona = {
+   // clave : valor,
+   nombre : "Paola",
+   edad : 23,
+   colorCabello : "castaño",
+   colorOjos : "cafe",
+   altura : 1.80,
+   peso : undefined,
+   vivo : true,
+   novio : true,
+}
+
+console.log(persona);
+//Accedemos a los datos de una clave.
+//Con la notación de punto .
+console.log(persona.nombre);
+console.log(persona.altura);
+console.log(persona.novio);
+
+/* Function */
+
+let mensajito = function () {
+   //Pasamos el código que ejecuta la función
+   console.log("Este es un mensaje lanzado por una función");
+}
+
+//Invocamos la función
+mensajito();
