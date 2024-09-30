@@ -139,7 +139,7 @@ console.log(5 < 5); //false
 
 //Menor o igual que (<=) verifica si el primer valor es menor o igual que el segundo valor.
 
-console.log(4 <= 10);
+console.log(4 <= 10); 
 console.log(10 <= 100);
 console.log(45 <= 7);
 console.log(8 <= 8);
