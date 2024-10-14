@@ -29,9 +29,9 @@ let edad = prompt("¿Que edad tienes?");
 
 console.log(prompt);
 
-if (edad => 18) {
+if (edad > 18) {
     alert("¡Eres mayor de edad! Felicidades, ya le debes al SAT")
-} else if (edad <= 18) {
+} else if (edad < 18) {
     alert("Eres menor de edad, aún no le debes al SAT.")
 } else {
     alert("¡Eres un Alien! Ya llamamos al Área 51")
