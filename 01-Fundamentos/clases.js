@@ -50,8 +50,7 @@ class Mascota {
     saludo(){
     console.log(`Dame comida humano inutil, soy ${this.nombre} el poderoso y tengo ${this.edad}`)
 
-
-}
+ }
 
 //Instancear la clase Mascota. Creamos un objeto con la plantilla Mascota.
 
